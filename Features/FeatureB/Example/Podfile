@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'FeatureB_Example' do
+  pod 'FeatureB', :path => '../'
+  pod 'Common', :path => '../../../Common'
+
+  target 'FeatureB_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '1.3.4'
+    pod 'Nimble', '7.3.4'
+  end
+end

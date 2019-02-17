@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'Common_Example' do
+  pod 'Common', :path => '../'
+
+  pod 'Swinject', '2.5.0'
+  pod 'SwinjectAutoregistration', '2.5.1'
+
+  target 'Common_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '1.3.4'
+    pod 'Nimble', '7.3.4'
+  end
+end

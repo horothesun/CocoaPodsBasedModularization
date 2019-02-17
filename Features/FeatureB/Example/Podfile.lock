@@ -1,0 +1,68 @@
+PODS:
+  - Common (0.1.0):
+    - Swinject (= 2.5.0)
+    - SwinjectAutoregistration (= 2.5.1)
+  - FeatureB (0.1.0):
+    - Common
+    - RxCocoa (= 4.4.1)
+    - RxSwift (= 4.4.1)
+    - RxSwiftExt (= 3.4.0)
+    - Swinject (= 2.5.0)
+    - SwinjectAutoregistration (= 2.5.1)
+  - Nimble (7.3.4)
+  - Quick (1.3.4)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - RxSwiftExt (3.4.0):
+    - RxSwiftExt/Core (= 3.4.0)
+    - RxSwiftExt/RxCocoa (= 3.4.0)
+  - RxSwiftExt/Core (3.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwiftExt/RxCocoa (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwiftExt/Core
+  - Swinject (2.5.0)
+  - SwinjectAutoregistration (2.5.1):
+    - Swinject (~> 2.5)
+
+DEPENDENCIES:
+  - Common (from `../../../Common`)
+  - FeatureB (from `../`)
+  - Nimble (= 7.3.4)
+  - Quick (= 1.3.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - RxSwiftExt
+    - Swinject
+    - SwinjectAutoregistration
+
+EXTERNAL SOURCES:
+  Common:
+    :path: "../../../Common"
+  FeatureB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Common: 9b37568fc9faaf7c6ea9c480e4abcbe8a0062a3e
+  FeatureB: 74174257513eda03f8c3b9299d5391e809881f0f
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: f4f7f063c524394c73ed93ac70983c609805d481
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+  SwinjectAutoregistration: f72bf894cbd2ee4a9153e00fa5208e93fb44d283
+
+PODFILE CHECKSUM: 51afc7ccb44d0f045f1b05dbdd8970c0b3339b8c
+
+COCOAPODS: 1.6.0

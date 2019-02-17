@@ -1,0 +1,90 @@
+PODS:
+  - Common (0.1.0):
+    - Swinject (= 2.5.0)
+    - SwinjectAutoregistration (= 2.5.1)
+  - FeatureA (0.1.0):
+    - Common
+    - RxCocoa (= 4.4.1)
+    - RxSwift (= 4.4.1)
+    - RxSwiftExt (= 3.4.0)
+    - Swinject (= 2.5.0)
+    - SwinjectAutoregistration (= 2.5.1)
+  - FeatureB (0.1.0):
+    - Common
+    - RxCocoa (= 4.4.1)
+    - RxSwift (= 4.4.1)
+    - RxSwiftExt (= 3.4.0)
+    - Swinject (= 2.5.0)
+    - SwinjectAutoregistration (= 2.5.1)
+  - Nimble (7.3.4)
+  - Quick (1.3.4)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - RxSwiftExt (3.4.0):
+    - RxSwiftExt/Core (= 3.4.0)
+    - RxSwiftExt/RxCocoa (= 3.4.0)
+  - RxSwiftExt/Core (3.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwiftExt/RxCocoa (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwiftExt/Core
+  - RxTest (4.4.1):
+    - RxAtomic (~> 4.4)
+    - RxSwift (~> 4.0)
+  - Swinject (2.5.0)
+  - SwinjectAutoregistration (2.5.1):
+    - Swinject (~> 2.5)
+
+DEPENDENCIES:
+  - Common (from `../Common`)
+  - FeatureA (from `../Features/FeatureA`)
+  - FeatureB (from `../Features/FeatureB`)
+  - Nimble (= 7.3.4)
+  - Quick (= 1.3.4)
+  - RxCocoa (= 4.4.1)
+  - RxSwift (= 4.4.1)
+  - RxSwiftExt (= 3.4.0)
+  - RxTest (= 4.4.1)
+  - Swinject (= 2.5.0)
+  - SwinjectAutoregistration (= 2.5.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - RxSwiftExt
+    - RxTest
+    - Swinject
+    - SwinjectAutoregistration
+
+EXTERNAL SOURCES:
+  Common:
+    :path: "../Common"
+  FeatureA:
+    :path: "../Features/FeatureA"
+  FeatureB:
+    :path: "../Features/FeatureB"
+
+SPEC CHECKSUMS:
+  Common: 9b37568fc9faaf7c6ea9c480e4abcbe8a0062a3e
+  FeatureA: 0633549c820a8bee7b1bef80cc19bb913622c7a7
+  FeatureB: 63810c83a0fccf44938933793e91df4eda777ff0
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: f4f7f063c524394c73ed93ac70983c609805d481
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  RxTest: f8e548755ca3c7502dc41c7d3b28802c90115a38
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+  SwinjectAutoregistration: f72bf894cbd2ee4a9153e00fa5208e93fb44d283
+
+PODFILE CHECKSUM: af14cf37d141916ea0529f2c56b51a0c3b0548dd
+
+COCOAPODS: 1.6.0
